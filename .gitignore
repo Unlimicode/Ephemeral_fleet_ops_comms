@@ -74,6 +74,7 @@ desktop.ini
 _dev_logs/
 
 # Claude Code local artefacts (machine-specific, not shared)
+CLAUDE.md
 .claude/settings.local.json
 .claude/scheduled_tasks.lock
 .claude/worktrees/

@@ -77,8 +77,7 @@ local device testing via the root `start-dev.js`.
 .
 ├── start-dev.js            Boots backend + frontend + an ngrok tunnel together
 ├── implementation_plan.md  Sprint-by-sprint engineering log (append-only)
-├── outstanding_system.md   Known gaps and follow-up work
-├── CLAUDE.md               Working context for AI-assisted development
+├── docs/                   User guide spec, dissertation notes, outstanding work
 │
 ├── backend/
 │   ├── server.js           Express entry point
@@ -206,6 +205,6 @@ Backend test secrets are supplied through repository secrets.
 | File | Contents |
 |------|----------|
 | [`implementation_plan.md`](implementation_plan.md) | Chronological sprint log — every change, its files, and its rationale |
-| [`outstanding_system.md`](outstanding_system.md) | Remaining gaps and planned follow-up work |
+| [`docs/outstanding_system.md`](docs/outstanding_system.md) | Remaining gaps and planned follow-up work |
 | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) | Spec for the in-system help feature (source of truth for the help UI) |
 | [`docs/chapter4_annotated.md`](docs/chapter4_annotated.md) | Requirement-to-code and claim-to-test mapping for the dissertation |
