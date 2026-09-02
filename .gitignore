@@ -73,6 +73,14 @@ desktop.ini
 # Dev logs and debug output
 _dev_logs/
 
+# Claude Code local artefacts (machine-specific, not shared)
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.claude/worktrees/
+.claude/todos/
+.claude/shell-snapshots/
+.claude/statsig/
+
 # Frontend build output
 frontend/dist/
 
