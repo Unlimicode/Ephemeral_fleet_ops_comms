@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import api from '../api/axios';
-import ClientHelpModal from '../components/ClientHelpModal';
+import api from '../../api/axios';
+import ClientHelpModal from '../../components/ClientHelpModal';
 
 export default function BookingHistoryPage() {
     const [searchParams] = useSearchParams();

@@ -29,10 +29,10 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { io } from 'socket.io-client';
-import api from '../api/axios';
-import { useAuth } from '../context/AuthContext.jsx';
-import useWindowWidth from '../hooks/useWindowWidth.js';
-import { generateCompliancePDF } from '../utils/compliancePdf.js';
+import api from '../../api/axios';
+import { useAuth } from '../../context/AuthContext.jsx';
+import useWindowWidth from '../../hooks/useWindowWidth.js';
+import { generateCompliancePDF } from '../../utils/compliancePdf.js';
 
 const getEventMessage = (type, data) => {
     const ref = data.id || data.tripId;

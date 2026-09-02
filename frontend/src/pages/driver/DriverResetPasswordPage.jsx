@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import api from '../api/axios.js';
-import SwiftlinkLogo from '../components/SwiftlinkLogo.jsx';
+import api from '../../api/axios.js';
+import SwiftlinkLogo from '../../components/SwiftlinkLogo.jsx';
 
 export default function DriverResetPasswordPage() {
     const { token } = useParams();

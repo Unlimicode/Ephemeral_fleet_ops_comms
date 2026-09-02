@@ -7,19 +7,19 @@ import ManagerDispatchPage from './pages/manager/ManagerDispatchPage.jsx';
 import ManagerDriversPage from './pages/manager/ManagerDriversPage.jsx';
 import ManagerVehiclesPage from './pages/manager/ManagerVehiclesPage.jsx';
 import ManagerComplaintsPage from './pages/manager/ManagerComplaintsPage.jsx';
-import ManagerDashboardPage from './pages/ManagerPrivacyDashboardPage.jsx';
+import ManagerDashboardPage from './pages/manager/ManagerPrivacyDashboardPage.jsx';
 import ManagerAuditPage from './pages/manager/ManagerAuditPage.jsx';
 import ManagerHelpPage from './pages/manager/ManagerHelpPage.jsx';
 import ManagerMessagesPage from './pages/manager/ManagerMessagesPage.jsx';
-import DriverResetPasswordPage from './pages/DriverResetPasswordPage.jsx';
+import DriverResetPasswordPage from './pages/driver/DriverResetPasswordPage.jsx';
 import DriverTripsPage from './pages/driver/DriverTripsPage.jsx';
 import DriverActiveTripPage from './pages/driver/DriverActiveTripPage.jsx';
 import DriverProfilePage from './pages/driver/DriverProfilePage.jsx';
 import DriverNotificationsPage from './pages/driver/DriverNotificationsPage.jsx';
 import DriverManagerPage from './pages/driver/DriverManagerPage.jsx';
-import BookingLandingPage from './pages/BookingLandingPage.jsx';
+import BookingLandingPage from './pages/booking/BookingLandingPage.jsx';
 import SwiftlinkHomePage from './pages/SwiftlinkHomePage.jsx';
-import BookingHistoryPage from './pages/BookingHistoryPage.jsx';
+import BookingHistoryPage from './pages/booking/BookingHistoryPage.jsx';
 
 // Layout & Context imports
 import ManagerLayout from './components/layout/ManagerLayout.jsx';
