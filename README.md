@@ -208,3 +208,7 @@ Backend test secrets are supplied through repository secrets.
 | [`docs/outstanding_system.md`](docs/outstanding_system.md) | Remaining gaps and planned follow-up work |
 | [`docs/USER_GUIDE.md`](docs/USER_GUIDE.md) | Spec for the in-system help feature (source of truth for the help UI) |
 | [`docs/chapter4_annotated.md`](docs/chapter4_annotated.md) | Requirement-to-code and claim-to-test mapping for the dissertation |
+
+## License
+
+Released under the [MIT License](LICENSE).

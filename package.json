@@ -1,7 +1,9 @@
 {
     "name": "swiftlink",
     "version": "1.0.0",
+    "description": "Privacy-preserving fleet operations and communication platform",
     "type": "module",
+    "license": "MIT",
     "scripts": {
         "dev": "node start-dev.js"
     },
